@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   
+   
+}
+
+
+
+#main{
+
+}
+
+#Header_Laptop{
+   height: 46px;
+   background-color: yellow;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+#choose{
+    
+}
+
+#choose li{
+    display: inline-block;  
+}
+
+#choose li:hover a{
+    color: #fff;
+    background-color: #ddd;
+}
+
+#choose li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.img_laptop{
+    width: 100%;
+}
+
+     /* xong phan header  */
+
+
+     /* begin content */
+#content{
+    
+}
+
+
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+    
+}
+
+.content-section .section-sub{
+    margin-top: 16px;
+}
+
+    /*content laptop*/
+
+#content .content-laptop-img{
+    width: 800px;
+    height: 450px;
+    
+}
+
+#content .menber-laptop{
+    float: left;
+    width: 23%;
+    margin: 16px 8px;
+    padding: 8px 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#content .menber-laptop:hover{
+    margin: 4px 8px;
+}
+
+
+
+.img-MacBook{
+    width: 100%;
+}
+
+
+ /* css cho bảng giá  */
+
+.uday-hs{
+    color: #fff;
+    background-color: rgb(252, 4, 4);
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+
+
+.Gia-cu{
+    text-decoration: line-through;
+    display: inline-block;
+   padding-right: 8px;
+}
+
+.chon-mua{
+    display: block;
+    font-size: 16px;
+    margin-top: 16px;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 8px;
+}
+
+.chon-mua:hover{
+    color: blue;
+    opacity: 0.2px;
+    background-color: #ccc;
+}
+
+.online{
+    color:#fff;
+    display: block;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+
+
