@@ -14,32 +14,36 @@ body{
    
 }
 
-
+.clear{
+    clear: both;
+}
 
 #main{
 
 }
 
 #Header_Laptop{
-   height: 46px;
+   height: 45px;
    background-color: yellow;
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
+   z-index: 1; 
 }
 
-#choose{
-    
-}
+
+
 
 #choose li{
     display: inline-block;  
+    
 }
 
 #choose li:hover a{
     color: #fff;
     background-color: #ddd;
+   
 }
 
 #choose li a{
@@ -51,46 +55,61 @@ body{
     text-transform: uppercase;
 }
 
-.img_laptop{
+#sider .img_laptop{
     width: 100%;
+    margin-top: 45px;
 }
 
      /* xong phan header  */
 
 
-     /* begin content */
-#content{
-    
-}
+    /* begin content*/
 
+#content{
+   margin-left: auto;
+   margin-right: auto;
+}
 
 #content .content-section{
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 64px 0;
-    
+   
 }
 
-.content-section .section-sub{
-    margin-top: 16px;
+#content .section-header{
+    margin-left: 32px;
+}
+
+#content .section-sub{
+    margin: 12px 32px;
+}
+
+#content .content-img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.content-section .section-header{
+    margin: 16px 8px;
 }
 
     /*content laptop*/
 
-#content .content-laptop-img{
-    width: 800px;
-    height: 450px;
+.content-laptop-img{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #469274;
     
 }
 
 #content .menber-laptop{
     float: left;
-    width: 24%;
-    margin: 16px 8px;
+    width: 23%;
+    margin: 32px 15px;
     padding: 8px 8px;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-height: 600px;
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+    background-color: #fff;
+    
 }
 
 #content .menber-laptop:hover{
@@ -114,8 +133,9 @@ body{
 .uday-hs{
     color: #fff;
     background-color: rgb(252, 4, 4);
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 0 8px;
+    
 }
 
 
@@ -124,6 +144,7 @@ body{
     text-decoration: line-through;
     display: inline-block;
     padding-right: 8px;
+    margin: 8px 0;
 }
 
 .chon-mua{
@@ -145,10 +166,25 @@ body{
     color:#fff;
     display: block;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 12px;
+    padding: 0 8px;
+    width: 170px;
 }
 
-    /*footer*/
+/* danh gia */
+.content-iteam{
+    margin: 8px 0;
+}
+
+.stat-iteam{
+    color: #fb6e2e;
+    
+}
+
+.stat-iteam-1{
+   color:#bdbdbd;
+}
+   
 
 
 
