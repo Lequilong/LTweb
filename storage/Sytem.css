@@ -86,7 +86,7 @@ body{
 
 #content .menber-laptop{
     float: left;
-    width: 23%;
+    width: 24%;
     margin: 16px 8px;
     padding: 8px 8px;
     cursor: pointer;
@@ -94,7 +94,12 @@ body{
 }
 
 #content .menber-laptop:hover{
-    margin: 4px 8px;
+    transform: translateY(-10px);
+
+}
+
+.Content-item-Mac{
+    padding: 4px 4px;
 }
 
 
@@ -118,7 +123,7 @@ body{
 .Gia-cu{
     text-decoration: line-through;
     display: inline-block;
-   padding-right: 8px;
+    padding-right: 8px;
 }
 
 .chon-mua{
@@ -142,6 +147,8 @@ body{
     background-color: red;
     border-radius: 5px;
 }
+
+    /*footer*/
 
 
 
